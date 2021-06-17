@@ -17,14 +17,15 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip >=18.1
   run:
-    - python
-    - google-api-core-grpc >=1.14.0,<2.0.0dev
+    - python >=3.6
+    - google-api-core-grpc >=1.22.2,<2.0.0dev
     - grpc-google-iam-v1 >=0.12.3,<0.13.0dev
-    - enum34
-    - grafeas
+    - proto-plus >=1.4.0
+    - packaging >=14.3
+    - grafeas >=1.0.0,<2.0dev
 
 test:
   imports:
