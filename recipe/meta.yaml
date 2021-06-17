@@ -1,6 +1,6 @@
 {% set name = "google-cloud-containeranalysis" %}
-{% set version = "1.0.2" %}
-{% set sha256 = "2880f54388599209f5f6474294d72bdef70b738e1231a426bc1e2be239151994" %}
+{% set version = "2.3.0" %}
+{% set sha256 = "be13114425f71398da74160aa5b1d85426c2d38a54b6e188d9a33340ee5153dc" %}
 
 package:
   name: {{ name|lower }}
@@ -17,14 +17,15 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip >=18.1
   run:
-    - python
-    - google-api-core-grpc >=1.14.0,<2.0.0dev
+    - python >=3.6
+    - google-api-core-grpc >=1.22.2,<2.0.0dev
     - grpc-google-iam-v1 >=0.12.3,<0.13.0dev
-    - enum34
-    - grafeas
+    - proto-plus >=1.4.0
+    - packaging >=14.3
+    - grafeas >=1.0.0,<2.0dev
 
 test:
   imports:
