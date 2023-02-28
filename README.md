@@ -1,11 +1,11 @@
-About google-cloud-containeranalysis
-====================================
+About google-cloud-containeranalysis-feedstock
+==============================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-containeranalysis-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/googleapis/python-containeranalysis
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-containeranalysis-feedstock/blob/main/LICENSE.txt)
 
 Summary: Google Cloud Container Analysis API client library
 
