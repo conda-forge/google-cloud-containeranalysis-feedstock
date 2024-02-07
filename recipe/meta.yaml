@@ -1,6 +1,6 @@
 {% set name = "google-cloud-containeranalysis" %}
-{% set version = "2.14.0" %}
-{% set sha256 = "18ca37dd215e204f966d81551f30ed06e9b493429f3ab0d577f3495a190b2501" %}
+{% set version = "2.14.1" %}
+{% set sha256 = "01a0ba500d8e8739212cee7b8497bce1b6a5646c19a1acf1b44b08fc1c7ee588" %}
 
 package:
   name: {{ name|lower }}
